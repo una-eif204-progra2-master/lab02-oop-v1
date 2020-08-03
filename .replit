@@ -1,2 +1,2 @@
 language = "cpp"
-run = "clang++-7 -pthread -std=c++17 -o sample Basic00Example.cpp; ./sample"
+run = "clang++-7 -pthread -std=c++17 -o lab02-oop Main.cpp Person.cpp -include Person.h Professor.cpp -include Professor.h Administrative.cpp -include Administrative.h University.cpp -include University.h; ./lab02-oop"
